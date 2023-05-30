@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simulador de Reservas de Hotel</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="app.js" defer></script>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Simulador de Reservas de Hotel</h1>
+
+    <h2>Reservas Actuales</h2>
+    <ul id="lista-reservas"></ul>
+
+    <h2>Agregar Reserva</h2>
+    <form id="formulario-reserva">
+      <div class="form-group">
+        <label for="nombre-cliente">Nombre del Cliente:</label>
+        <input type="text" id="nombre-cliente" class="form-control" required>
+      </div>
+
+      <div class="form-group">
+        <label for="fecha-check-in">Fecha de Check-In:</label>
+        <input type="date" id="fecha-check-in" class="form-control" required>
+      </div>
+
+      <div class="form-group">
+        <label for="fecha-check-out">Fecha de Check-Out:</label>
+        <input type="date" id="fecha-check-out" class="form-control" required>
+      </div>
+
+      <div class="form-group">
+        <label for="tipo-habitacion">Tipo de Habitación:</label>
+        <select id="tipo-habitacion" class="form-control" required>
+          <option value="Individual">Individual</option>
+          <option value="Doble">Doble</option>
+          <option value="Suite">Suite</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Agregar Reserva</button>
+    </form>
+
+    <h2>Buscar Reserva</h2>
+    <form id="formulario-buscar">
+      <div class="form-group">
+        <label for="nombre-cliente-buscar">Nombre del Cliente:</label>
+        <input type="text" id="nombre-cliente-buscar" class="form-control">
+      </div>
+
+      <button type="submit" class="btn btn-primary">Buscar</button>
+     
+
+    </form>
+    <button id="boton-limpiar-reservas">Limpiar Reservas</button>
+
+  </div>
+</body>
+</html>

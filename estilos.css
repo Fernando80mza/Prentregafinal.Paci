@@ -1,0 +1,73 @@
+
+body {
+    font-family:  Century Gothic, sans-serif;
+    background-color: #a19999;
+    color: #003553;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  
+  #lista-reservas {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #lista-reservas li {
+    margin-bottom: 10px;
+  }
+  
+ 
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #c9bcbc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #d1cbcb;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0260c5;
+  }
+  
+ 
+  .container {
+    background-color: #d4bebe;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
